@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/layout-sw533dp-v13/dialer.xml",
+        "source": "/root/linphone/linphone-android/res/layout-sw533dp/dialer.xml"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/layout-sw533dp-v13/main.xml",
+        "source": "/root/linphone/linphone-android/res/layout-sw533dp/main.xml"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/layout-sw533dp-v13/assistant_codec_downloader.xml",
+        "source": "/root/linphone/linphone-android/res/layout-sw533dp/assistant_codec_downloader.xml"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/layout-sw533dp-v13/chatlist_cell.xml",
+        "source": "/root/linphone/linphone-android/res/layout-sw533dp/chatlist_cell.xml"
+    }
+]

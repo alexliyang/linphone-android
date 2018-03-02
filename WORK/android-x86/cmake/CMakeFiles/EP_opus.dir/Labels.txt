@@ -1,0 +1,14 @@
+# Target labels
+ EP_opus
+# Source files and their labels
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_opus
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_opus.rule
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_opus-complete.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_opus/EP_opus-install.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_opus/EP_opus-mkdir.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_opus/EP_opus-download.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_opus/EP_opus-update.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_opus/EP_opus-patch.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_opus/EP_opus-configure.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_opus/EP_opus-build.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_opus/EP_opus-force_build.rule

@@ -1,0 +1,14 @@
+# Target labels
+ EP_bcunit
+# Source files and their labels
+/root/linphone/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_bcunit
+/root/linphone/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_bcunit.rule
+/root/linphone/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_bcunit-complete.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_bcunit/EP_bcunit-install.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_bcunit/EP_bcunit-mkdir.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_bcunit/EP_bcunit-download.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_bcunit/EP_bcunit-update.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_bcunit/EP_bcunit-patch.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_bcunit/EP_bcunit-configure.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_bcunit/EP_bcunit-build.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_bcunit/EP_bcunit-force_build.rule

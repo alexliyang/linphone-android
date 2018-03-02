@@ -1,0 +1,46 @@
+Determining if files libudev.h exist failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79207/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_79207.dir/build.make CMakeFiles/cmTC_79207.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79207.dir/HAVE_LIBUDEV_H.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_79207.dir/HAVE_LIBUDEV_H.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CheckIncludeFiles/HAVE_LIBUDEV_H.c
+/root/linphone/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CheckIncludeFiles/HAVE_LIBUDEV_H.c:2:10: fatal error: 'libudev.h' file not found
+#include <libudev.h>
+         ^~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_79207.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_79207.dir/HAVE_LIBUDEV_H.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_79207.dir/HAVE_LIBUDEV_H.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_79207/fast' failed
+make[4]: *** [cmTC_79207/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <libudev.h>
+
+
+int main(void){return 0;}
+
+Performing C++ SOURCE FILE Test SUGGEST_OVERRIDE failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c78b/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2c78b.dir/build.make CMakeFiles/cmTC_2c78b.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2c78b.dir/src.cxx.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot   -isystem /root/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /root/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /root/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions -frtti -DSUGGEST_OVERRIDE -g -fPIE   -Wsuggest-override -o CMakeFiles/cmTC_2c78b.dir/src.cxx.o -c /root/linphone/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wsuggest-override'; did you mean '-Wshift-overflow'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_2c78b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c78b.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions -frtti -DSUGGEST_OVERRIDE -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_2c78b.dir/src.cxx.o  -o cmTC_2c78b  "/root/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_shared.so" 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

@@ -1,0 +1,6 @@
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/lib/libopus.a
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/opus/opus.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/opus/opus_custom.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/opus/opus_defines.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/opus/opus_multistream.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/opus/opus_types.h

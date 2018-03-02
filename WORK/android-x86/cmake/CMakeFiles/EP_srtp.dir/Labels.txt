@@ -1,0 +1,14 @@
+# Target labels
+ EP_srtp
+# Source files and their labels
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_srtp
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_srtp.rule
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_srtp-complete.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_srtp/EP_srtp-install.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_srtp/EP_srtp-mkdir.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_srtp/EP_srtp-download.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_srtp/EP_srtp-update.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_srtp/EP_srtp-patch.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_srtp/EP_srtp-configure.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_srtp/EP_srtp-build.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_srtp/EP_srtp-force_build.rule

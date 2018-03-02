@@ -1,0 +1,14 @@
+# Target labels
+ EP_sqlite3
+# Source files and their labels
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_sqlite3
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_sqlite3.rule
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_sqlite3-complete.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_sqlite3/EP_sqlite3-install.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_sqlite3/EP_sqlite3-mkdir.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_sqlite3/EP_sqlite3-download.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_sqlite3/EP_sqlite3-update.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_sqlite3/EP_sqlite3-patch.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_sqlite3/EP_sqlite3-configure.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_sqlite3/EP_sqlite3-build.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_sqlite3/EP_sqlite3-force_build.rule

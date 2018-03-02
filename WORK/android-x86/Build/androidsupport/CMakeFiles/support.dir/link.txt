@@ -1,0 +1,2 @@
+/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-ar qc libsupport.a  CMakeFiles/support.dir/root/android-ndk-r15c/sources/android/support/src/musl-multibyte/wctomb.c.o
+/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-ranlib libsupport.a

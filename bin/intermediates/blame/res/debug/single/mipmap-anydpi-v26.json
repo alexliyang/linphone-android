@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/mipmap-anydpi-v26/ic_launcher.xml",
+        "source": "/root/linphone/linphone-android/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/mipmap-anydpi-v26/ic_launcher_round.xml",
+        "source": "/root/linphone/linphone-android/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]

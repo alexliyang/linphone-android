@@ -1,0 +1,2 @@
+/root/linphone/linphone-android/WORK/android-arm64/cmake/Autotools/CMakeFiles/rebuild_cache.dir
+/root/linphone/linphone-android/WORK/android-arm64/cmake/Autotools/CMakeFiles/edit_cache.dir

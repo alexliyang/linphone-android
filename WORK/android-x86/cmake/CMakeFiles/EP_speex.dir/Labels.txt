@@ -1,0 +1,14 @@
+# Target labels
+ EP_speex
+# Source files and their labels
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_speex
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_speex.rule
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_speex-complete.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_speex/EP_speex-install.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_speex/EP_speex-mkdir.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_speex/EP_speex-download.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_speex/EP_speex-update.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_speex/EP_speex-patch.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_speex/EP_speex-configure.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_speex/EP_speex-build.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_speex/EP_speex-force_build.rule

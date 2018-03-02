@@ -1,0 +1,14 @@
+# Target labels
+ EP_gsm
+# Source files and their labels
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_gsm
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_gsm.rule
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_gsm-complete.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_gsm/EP_gsm-install.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_gsm/EP_gsm-mkdir.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_gsm/EP_gsm-download.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_gsm/EP_gsm-update.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_gsm/EP_gsm-patch.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_gsm/EP_gsm-configure.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_gsm/EP_gsm-build.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_gsm/EP_gsm-force_build.rule

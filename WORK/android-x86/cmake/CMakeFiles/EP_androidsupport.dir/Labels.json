@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_androidsupport"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_androidsupport.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_androidsupport-complete.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_androidsupport/EP_androidsupport-install.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_androidsupport/EP_androidsupport-mkdir.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_androidsupport/EP_androidsupport-download.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_androidsupport/EP_androidsupport-update.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_androidsupport/EP_androidsupport-patch.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_androidsupport/EP_androidsupport-configure.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_androidsupport/EP_androidsupport-build.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_androidsupport/EP_androidsupport-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EP_androidsupport"
+		],
+		"name" : "EP_androidsupport"
+	}
+}

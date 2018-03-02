@@ -1,0 +1,14 @@
+# Target labels
+ EP_mbedtls
+# Source files and their labels
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_mbedtls
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_mbedtls.rule
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_mbedtls-complete.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_mbedtls/EP_mbedtls-install.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_mbedtls/EP_mbedtls-mkdir.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_mbedtls/EP_mbedtls-download.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_mbedtls/EP_mbedtls-update.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_mbedtls/EP_mbedtls-patch.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_mbedtls/EP_mbedtls-configure.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_mbedtls/EP_mbedtls-build.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_mbedtls/EP_mbedtls-force_build.rule

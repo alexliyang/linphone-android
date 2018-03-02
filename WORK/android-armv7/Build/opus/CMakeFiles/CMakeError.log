@@ -1,0 +1,66 @@
+Performing C SOURCE FILE Test OPUS_ARM_MAY_HAVE_AARCH64_NEON_INTR failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5cf1b/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5cf1b.dir/build.make CMakeFiles/cmTC_5cf1b.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5cf1b.dir/src.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions -DOPUS_ARM_MAY_HAVE_AARCH64_NEON_INTR -g -fPIE   -o CMakeFiles/cmTC_5cf1b.dir/src.c.o   -c /root/linphone/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp/src.c
+/root/linphone/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp/src.c:6:8: warning: implicit declaration of function 'vqmovns_s32' is invalid in C99 [-Wimplicit-function-declaration]
+        OUT = vqmovns_s32(IN);
+              ^
+1 warning generated.
+Linking C executable cmTC_5cf1b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cf1b.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions -DOPUS_ARM_MAY_HAVE_AARCH64_NEON_INTR -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_5cf1b.dir/src.c.o  -o cmTC_5cf1b 
+/root/linphone/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp/src.c:6: error: undefined reference to 'vqmovns_s32'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_5cf1b.dir/build.make:86: recipe for target 'cmTC_5cf1b' failed
+make[5]: *** [cmTC_5cf1b] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5cf1b/fast' failed
+make[4]: *** [cmTC_5cf1b/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <arm_neon.h>
+int main(int argc, char *argv[]) {
+	static int32_t IN;
+	static int16_t OUT;
+	OUT = vqmovns_s32(IN);
+}
+Performing C SOURCE FILE Test OPUS_ARM_MAY_HAVE_AARCH64_NEON_INTR_FLAGS failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f23d9/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f23d9.dir/build.make CMakeFiles/cmTC_f23d9.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f23d9.dir/src.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions -DOPUS_ARM_MAY_HAVE_AARCH64_NEON_INTR_FLAGS -mfpu=neon -g -fPIE   -o CMakeFiles/cmTC_f23d9.dir/src.c.o   -c /root/linphone/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp/src.c
+/root/linphone/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp/src.c:6:8: warning: implicit declaration of function 'vqmovns_s32' is invalid in C99 [-Wimplicit-function-declaration]
+        OUT = vqmovns_s32(IN);
+              ^
+1 warning generated.
+Linking C executable cmTC_f23d9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f23d9.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions -DOPUS_ARM_MAY_HAVE_AARCH64_NEON_INTR_FLAGS -mfpu=neon -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_f23d9.dir/src.c.o  -o cmTC_f23d9 
+/root/linphone/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp/src.c:6: error: undefined reference to 'vqmovns_s32'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_f23d9.dir/build.make:86: recipe for target 'cmTC_f23d9' failed
+make[5]: *** [cmTC_f23d9] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f23d9/fast' failed
+make[4]: *** [cmTC_f23d9/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <arm_neon.h>
+int main(int argc, char *argv[]) {
+	static int32_t IN;
+	static int16_t OUT;
+	OUT = vqmovns_s32(IN);
+}

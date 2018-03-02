@@ -1,0 +1,63 @@
+Determining if the include file machine/types.h exists failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fcd08/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fcd08.dir/build.make CMakeFiles/cmTC_fcd08.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcd08.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_fcd08.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'machine/types.h' file not found
+#include <machine/types.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_fcd08.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_fcd08.dir/CheckIncludeFile.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_fcd08.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fcd08/fast' failed
+make[4]: *** [cmTC_fcd08/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/int_types.h exists failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b483/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5b483.dir/build.make CMakeFiles/cmTC_5b483.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b483.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_5b483.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/int_types.h' file not found
+#include <sys/int_types.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_5b483.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5b483.dir/CheckIncludeFile.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_5b483.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5b483/fast' failed
+make[4]: *** [cmTC_5b483/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1539e/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1539e.dir/build.make CMakeFiles/cmTC_1539e.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1539e.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_1539e.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'windows.h' file not found
+#include <windows.h>
+         ^~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_1539e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1539e.dir/CheckIncludeFile.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_1539e.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1539e/fast' failed
+make[4]: *** [cmTC_1539e/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/srtp/CMakeFiles/CMakeTmp'
+
+

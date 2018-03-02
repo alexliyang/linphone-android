@@ -1,0 +1,14 @@
+# Target labels
+ EP_belr
+# Source files and their labels
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_belr
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_belr.rule
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_belr-complete.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_belr/EP_belr-install.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_belr/EP_belr-mkdir.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_belr/EP_belr-download.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_belr/EP_belr-update.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_belr/EP_belr-patch.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_belr/EP_belr-configure.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_belr/EP_belr-build.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_belr/EP_belr-force_build.rule

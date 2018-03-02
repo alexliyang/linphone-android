@@ -1,0 +1,6 @@
+/root/linphone/linphone-android/liblinphone-sdk/android-arm64/share/bzrtp/cmake/BZRTPTargets.cmake
+/root/linphone/linphone-android/liblinphone-sdk/android-arm64/share/bzrtp/cmake/BZRTPTargets-relwithdebinfo.cmake
+/root/linphone/linphone-android/liblinphone-sdk/android-arm64/share/bzrtp/cmake/BZRTPConfig.cmake
+/root/linphone/linphone-android/liblinphone-sdk/android-arm64/share/bzrtp/cmake/BZRTPConfigVersion.cmake
+/root/linphone/linphone-android/liblinphone-sdk/android-arm64/include/bzrtp/bzrtp.h
+/root/linphone/linphone-android/liblinphone-sdk/android-arm64/lib/libbzrtp.a

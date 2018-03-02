@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/xml/syncadapter.xml",
+        "source": "/root/linphone/linphone-android/res/xml/syncadapter.xml"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/root/linphone/linphone-android/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/xml/account_preferences.xml",
+        "source": "/root/linphone/linphone-android/res/xml/account_preferences.xml"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/xml/provider_paths.xml",
+        "source": "/root/linphone/linphone-android/res/xml/provider_paths.xml"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/xml/contacts.xml",
+        "source": "/root/linphone/linphone-android/res/xml/contacts.xml"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/xml/authenticator.xml",
+        "source": "/root/linphone/linphone-android/res/xml/authenticator.xml"
+    }
+]

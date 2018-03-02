@@ -1,0 +1,14 @@
+# Target labels
+ EP_ortp
+# Source files and their labels
+/root/linphone/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_ortp
+/root/linphone/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_ortp.rule
+/root/linphone/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_ortp-complete.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_ortp/EP_ortp-install.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_ortp/EP_ortp-mkdir.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_ortp/EP_ortp-download.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_ortp/EP_ortp-update.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_ortp/EP_ortp-patch.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_ortp/EP_ortp-configure.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_ortp/EP_ortp-build.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_ortp/EP_ortp-force_build.rule

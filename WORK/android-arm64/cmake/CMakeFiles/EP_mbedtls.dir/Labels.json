@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/cmake/CMakeFiles/EP_mbedtls"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/cmake/CMakeFiles/EP_mbedtls.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/cmake/CMakeFiles/EP_mbedtls-complete.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_mbedtls/EP_mbedtls-install.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_mbedtls/EP_mbedtls-mkdir.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_mbedtls/EP_mbedtls-download.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_mbedtls/EP_mbedtls-update.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_mbedtls/EP_mbedtls-patch.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_mbedtls/EP_mbedtls-configure.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_mbedtls/EP_mbedtls-build.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_mbedtls/EP_mbedtls-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EP_mbedtls"
+		],
+		"name" : "EP_mbedtls"
+	}
+}

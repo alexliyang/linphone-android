@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/cmake/CMakeFiles/EP_opus"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/cmake/CMakeFiles/EP_opus.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/cmake/CMakeFiles/EP_opus-complete.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_opus/EP_opus-install.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_opus/EP_opus-mkdir.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_opus/EP_opus-download.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_opus/EP_opus-update.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_opus/EP_opus-patch.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_opus/EP_opus-configure.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_opus/EP_opus-build.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_opus/EP_opus-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EP_opus"
+		],
+		"name" : "EP_opus"
+	}
+}

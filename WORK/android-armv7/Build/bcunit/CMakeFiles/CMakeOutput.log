@@ -1,0 +1,195 @@
+The target system is: Android - 16 - armv7-a
+The host system is: Linux - 4.15.0-041500-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/3.11.0-rc2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0c45/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f0c45.dir/build.make CMakeFiles/cmTC_f0c45.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0c45.dir/testCCompiler.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_f0c45.dir/testCCompiler.c.o   -c /root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f0c45
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0c45.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_f0c45.dir/testCCompiler.c.o  -o cmTC_f0c45 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40372/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_40372.dir/build.make CMakeFiles/cmTC_40372.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40372.dir/CMakeCCompilerABI.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_40372.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_40372
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40372.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_40372.dir/CMakeCCompilerABI.c.o  -o cmTC_40372 
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: armv7-none-linux-android
+Thread model: posix
+InstalledDir: /root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@thumb
+Candidate multilib: armv7-a;@armv7
+Candidate multilib: armv7-a/thumb;@armv7@thumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@armv7@thumb
+ "/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-arm -pie -z relro -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_40372 /root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib/../lib -L/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib --fix-cortex-a8 --gc-sections -z nocopyreloc CMakeFiles/cmTC_40372.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_40372/fast"]
+  ignore line: [make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_40372.dir/build.make CMakeFiles/cmTC_40372.dir/build]
+  ignore line: [make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_40372.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_40372.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_40372]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40372.dir/link.txt --verbose=1]
+  ignore line: [/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_40372.dir/CMakeCCompilerABI.c.o  -o cmTC_40372 ]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: armv7-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@thumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@armv7]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  link line: [ "/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-arm -pie -z relro -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_40372 /root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib/../lib -L/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib --fix-cortex-a8 --gc-sections -z nocopyreloc CMakeFiles/cmTC_40372.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o]
+    arg [/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
+    arg [--sysroot=/root/android-ndk-r15c/platforms/android-16/arch-arm] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-X] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_40372] ==> ignore
+    arg [/root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> dir [/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
+    arg [-L/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-L/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
+    arg [-L/root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib/../lib] ==> dir [/root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib/../lib]
+    arg [-L/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-L/root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib] ==> dir [/root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib]
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_40372.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o] ==> ignore
+  collapse library dir [/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> [/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
+  collapse library dir [/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib/../lib] ==> [/root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib]
+  collapse library dir [/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib] ==> [/root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit dirs: [/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm;/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/root/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae90e/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ae90e.dir/build.make CMakeFiles/cmTC_ae90e.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae90e.dir/feature_tests.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -std=c11 -o CMakeFiles/cmTC_ae90e.dir/feature_tests.c.o   -c /root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ae90e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae90e.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_ae90e.dir/feature_tests.c.o  -o cmTC_ae90e 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6ec42/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6ec42.dir/build.make CMakeFiles/cmTC_6ec42.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ec42.dir/feature_tests.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -std=c99 -o CMakeFiles/cmTC_6ec42.dir/feature_tests.c.o   -c /root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6ec42
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ec42.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_6ec42.dir/feature_tests.c.o  -o cmTC_6ec42 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2fd3f/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2fd3f.dir/build.make CMakeFiles/cmTC_2fd3f.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2fd3f.dir/feature_tests.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -std=c90 -o CMakeFiles/cmTC_2fd3f.dir/feature_tests.c.o   -c /root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2fd3f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fd3f.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_2fd3f.dir/feature_tests.c.o  -o cmTC_2fd3f 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bcunit/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros

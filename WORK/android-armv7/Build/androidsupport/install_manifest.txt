@@ -1,0 +1,5 @@
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/ctype.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/langinfo.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/nl_types.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/xlocale.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/lib/libsupport.a

@@ -1,0 +1,1 @@
+/root/linphone/linphone-android/liblinphone-sdk/android-arm64/lib/libsupport.a

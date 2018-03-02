@@ -1,0 +1,14 @@
+# Target labels
+ EP_androidsupport
+# Source files and their labels
+/root/linphone/linphone-android/WORK/android-arm64/cmake/CMakeFiles/EP_androidsupport
+/root/linphone/linphone-android/WORK/android-arm64/cmake/CMakeFiles/EP_androidsupport.rule
+/root/linphone/linphone-android/WORK/android-arm64/cmake/CMakeFiles/EP_androidsupport-complete.rule
+/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_androidsupport/EP_androidsupport-install.rule
+/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_androidsupport/EP_androidsupport-mkdir.rule
+/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_androidsupport/EP_androidsupport-download.rule
+/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_androidsupport/EP_androidsupport-update.rule
+/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_androidsupport/EP_androidsupport-patch.rule
+/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_androidsupport/EP_androidsupport-configure.rule
+/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_androidsupport/EP_androidsupport-build.rule
+/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_androidsupport/EP_androidsupport-force_build.rule

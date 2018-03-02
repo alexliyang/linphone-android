@@ -1,0 +1,147 @@
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8c4fe/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8c4fe.dir/build.make CMakeFiles/cmTC_8c4fe.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c4fe.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/aarch64-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=21 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_8c4fe.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'windows.h' file not found
+#include <windows.h>
+         ^~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_8c4fe.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8c4fe.dir/CheckIncludeFile.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_8c4fe.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8c4fe/fast' failed
+make[4]: *** [cmTC_8c4fe/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ansidecl.h exists failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b03f/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7b03f.dir/build.make CMakeFiles/cmTC_7b03f.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b03f.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/aarch64-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=21 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_7b03f.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'ansidecl.h' file not found
+#include <ansidecl.h>
+         ^~~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_7b03f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7b03f.dir/CheckIncludeFile.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_7b03f.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7b03f/fast' failed
+make[4]: *** [cmTC_7b03f/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ieeefp.h exists failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e39fe/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e39fe.dir/build.make CMakeFiles/cmTC_e39fe.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e39fe.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/aarch64-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=21 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_e39fe.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'ieeefp.h' file not found
+#include <ieeefp.h>
+         ^~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_e39fe.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e39fe.dir/CheckIncludeFile.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_e39fe.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e39fe/fast' failed
+make[4]: *** [cmTC_e39fe/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file nan.h exists failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63410/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_63410.dir/build.make CMakeFiles/cmTC_63410.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63410.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/aarch64-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=21 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_63410.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'nan.h' file not found
+#include <nan.h>
+         ^~~~~~~
+1 error generated.
+CMakeFiles/cmTC_63410.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_63410.dir/CheckIncludeFile.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_63410.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_63410/fast' failed
+make[4]: *** [cmTC_63410/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fp_class.h exists failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5fc3d/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5fc3d.dir/build.make CMakeFiles/cmTC_5fc3d.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fc3d.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/aarch64-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=21 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_5fc3d.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'fp_class.h' file not found
+#include <fp_class.h>
+         ^~~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_5fc3d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5fc3d.dir/CheckIncludeFile.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_5fc3d.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5fc3d/fast' failed
+make[4]: *** [cmTC_5fc3d/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/timeb.h exists failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ebae6/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ebae6.dir/build.make CMakeFiles/cmTC_ebae6.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ebae6.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/aarch64-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=21 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_ebae6.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/timeb.h' file not found
+#include <sys/timeb.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_ebae6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ebae6.dir/CheckIncludeFile.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_ebae6.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ebae6/fast' failed
+make[4]: *** [cmTC_ebae6/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dl.h exists failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2156b/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2156b.dir/build.make CMakeFiles/cmTC_2156b.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2156b.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/aarch64-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=21 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_2156b.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'dl.h' file not found
+#include <dl.h>
+         ^~~~~~
+1 error generated.
+CMakeFiles/cmTC_2156b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2156b.dir/CheckIncludeFile.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_2156b.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2156b/fast' failed
+make[4]: *** [cmTC_2156b/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/xml2/CMakeFiles/CMakeTmp'
+
+

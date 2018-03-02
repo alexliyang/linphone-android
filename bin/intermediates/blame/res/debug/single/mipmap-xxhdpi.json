@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_foreground.png",
+        "source": "/root/linphone/linphone-android/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/root/linphone/linphone-android/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
+        "source": "/root/linphone/linphone-android/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_background.png",
+        "source": "/root/linphone/linphone-android/res/mipmap-xxhdpi/ic_launcher_background.png"
+    }
+]

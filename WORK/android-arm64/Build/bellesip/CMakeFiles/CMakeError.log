@@ -1,0 +1,130 @@
+Determining if the function clock_gettime exists in the rt failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e358/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7e358.dir/build.make CMakeFiles/cmTC_7e358.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e358.dir/CheckFunctionExists.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/aarch64-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=21 -fexceptions -DCHECK_FUNCTION_EXISTS=clock_gettime -g -fPIE   -o CMakeFiles/cmTC_7e358.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7e358
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e358.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-21/arch-arm64 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=21 -fexceptions -DCHECK_FUNCTION_EXISTS=clock_gettime -g  -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_7e358.dir/CheckFunctionExists.c.o  -o cmTC_7e358 -lrt 
+/root/android-ndk-r15c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld: cannot find -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_7e358.dir/build.make:86: recipe for target 'cmTC_7e358' failed
+make[5]: *** [cmTC_7e358] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7e358/fast' failed
+make[4]: *** [cmTC_7e358/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+
+
+Determining if the res_ndestroy exist failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6871c/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6871c.dir/build.make CMakeFiles/cmTC_6871c.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6871c.dir/CheckSymbolExists.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/aarch64-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=21 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_6871c.dir/CheckSymbolExists.c.o   -c /root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'res_ndestroy'
+  return ((int*)(&res_ndestroy))[argc];
+                  ^
+1 error generated.
+CMakeFiles/cmTC_6871c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6871c.dir/CheckSymbolExists.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_6871c.dir/CheckSymbolExists.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6871c/fast' failed
+make[4]: *** [cmTC_6871c/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+
+File /root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <resolv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef res_ndestroy
+  return ((int*)(&res_ndestroy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_RES_GETSERVERS failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2db82/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2db82.dir/build.make CMakeFiles/cmTC_2db82.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2db82.dir/src.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/aarch64-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=21 -fexceptions -DHAVE_RES_GETSERVERS -g -fPIE   -o CMakeFiles/cmTC_2db82.dir/src.c.o   -c /root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp/src.c
+/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp/src.c:3:1: warning: implicit declaration of function 'res_getservers' is invalid in C99 [-Wimplicit-function-declaration]
+res_getservers(NULL,NULL,0);
+^
+1 warning generated.
+Linking C executable cmTC_2db82
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2db82.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-21/arch-arm64 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=21 -fexceptions -DHAVE_RES_GETSERVERS -g  -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_2db82.dir/src.c.o  -o cmTC_2db82 -lresolv 
+/root/android-ndk-r15c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld: cannot find -lresolv
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_2db82.dir/build.make:86: recipe for target 'cmTC_2db82' failed
+make[5]: *** [cmTC_2db82] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2db82/fast' failed
+make[4]: *** [cmTC_2db82/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <resolv.h>
+int main(int argc, char *argv[]) {
+res_getservers(NULL,NULL,0);
+return 0;
+}
+Determining if the include file socket.h exists failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a553b/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a553b.dir/build.make CMakeFiles/cmTC_a553b.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a553b.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/aarch64-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=21 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_a553b.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'socket.h' file not found
+#include <socket.h>
+         ^~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_a553b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a553b.dir/CheckIncludeFile.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_a553b.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a553b/fast' failed
+make[4]: *** [cmTC_a553b/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/malloc.h exists failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ccc3/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8ccc3.dir/build.make CMakeFiles/cmTC_8ccc3.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ccc3.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/aarch64-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=21 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_8ccc3.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/malloc.h' file not found
+#include <sys/malloc.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_8ccc3.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8ccc3.dir/CheckIncludeFile.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_8ccc3.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8ccc3/fast' failed
+make[4]: *** [cmTC_8ccc3/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-arm64/Build/bellesip/CMakeFiles/CMakeTmp'
+
+

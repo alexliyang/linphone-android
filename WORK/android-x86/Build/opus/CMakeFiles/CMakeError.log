@@ -1,0 +1,69 @@
+Performing C SOURCE FILE Test OPUS_X86_MAY_HAVE_SSE4_1 failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dddd5/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_dddd5.dir/build.make CMakeFiles/cmTC_dddd5.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dddd5.dir/src.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions -DOPUS_X86_MAY_HAVE_SSE4_1 -g -fPIE   -o CMakeFiles/cmTC_dddd5.dir/src.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp/src.c
+/root/linphone/linphone-android/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp/src.c:7:10: error: always_inline function '_mm_mul_epi32' requires target feature 'sse4.1', but would be inlined into function 'main' that is compiled without support for 'sse4.1'
+        mtest = _mm_mul_epi32(mtest, mtest);
+                ^
+1 error generated.
+CMakeFiles/cmTC_dddd5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_dddd5.dir/src.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_dddd5.dir/src.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dddd5/fast' failed
+make[4]: *** [cmTC_dddd5/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <smmintrin.h>
+#include <time.h>
+int main(int argc, char *argv[]) {
+	__m128i mtest;
+	mtest = _mm_set1_epi32((int)time(NULL));
+	mtest = _mm_mul_epi32(mtest, mtest);
+	return _mm_cvtsi128_si32(mtest);
+}
+Performing C SOURCE FILE Test OPUS_X86_MAY_HAVE_AVX failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1d3da/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1d3da.dir/build.make CMakeFiles/cmTC_1d3da.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d3da.dir/src.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions -DOPUS_X86_MAY_HAVE_AVX -g -fPIE   -o CMakeFiles/cmTC_1d3da.dir/src.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp/src.c
+/root/linphone/linphone-android/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp/src.c:6:10: error: always_inline function '_mm256_set1_ps' requires target feature 'sse4.2', but would be inlined into function 'main' that is compiled without support for 'sse4.2'
+        mtest = _mm256_set1_ps((float)time(NULL));
+                ^
+/root/linphone/linphone-android/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp/src.c:7:10: error: always_inline function '_mm256_addsub_ps' requires target feature 'sse4.2', but would be inlined into function 'main' that is compiled without support for 'sse4.2'
+        mtest = _mm256_addsub_ps(mtest, mtest);
+                ^
+/root/linphone/linphone-android/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp/src.c:8:24: error: always_inline function '_mm256_undefined_ps' requires target feature 'sse4.2', but would be inlined into function 'main' that is compiled without support for 'sse4.2'
+        return _mm_cvtss_si32(_mm256_extractf128_ps(mtest, 0));
+                              ^
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/avxintrin.h:4687:14: note: expanded from macro '_mm256_extractf128_ps'
+    (__v8sf)(_mm256_undefined_ps()), \
+             ^
+3 errors generated.
+CMakeFiles/cmTC_1d3da.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1d3da.dir/src.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_1d3da.dir/src.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1d3da/fast' failed
+make[4]: *** [cmTC_1d3da/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <immintrin.h>
+#include <time.h>
+int main(int argc, char *argv[]) {
+	__m256 mtest;
+	mtest = _mm256_set1_ps((float)time(NULL));
+	mtest = _mm256_addsub_ps(mtest, mtest);
+	return _mm_cvtss_si32(_mm256_extractf128_ps(mtest, 0));
+}

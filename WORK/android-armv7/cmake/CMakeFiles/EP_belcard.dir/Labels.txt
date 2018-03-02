@@ -1,0 +1,14 @@
+# Target labels
+ EP_belcard
+# Source files and their labels
+/root/linphone/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_belcard
+/root/linphone/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_belcard.rule
+/root/linphone/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_belcard-complete.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_belcard/EP_belcard-install.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_belcard/EP_belcard-mkdir.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_belcard/EP_belcard-download.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_belcard/EP_belcard-update.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_belcard/EP_belcard-patch.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_belcard/EP_belcard-configure.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_belcard/EP_belcard-build.rule
+/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_belcard/EP_belcard-force_build.rule

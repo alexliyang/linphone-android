@@ -1,0 +1,14 @@
+# Target labels
+ EP_ms2
+# Source files and their labels
+/root/linphone/linphone-android/WORK/android-arm64/cmake/CMakeFiles/EP_ms2
+/root/linphone/linphone-android/WORK/android-arm64/cmake/CMakeFiles/EP_ms2.rule
+/root/linphone/linphone-android/WORK/android-arm64/cmake/CMakeFiles/EP_ms2-complete.rule
+/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_ms2/EP_ms2-install.rule
+/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_ms2/EP_ms2-mkdir.rule
+/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_ms2/EP_ms2-download.rule
+/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_ms2/EP_ms2-update.rule
+/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_ms2/EP_ms2-patch.rule
+/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_ms2/EP_ms2-configure.rule
+/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_ms2/EP_ms2-build.rule
+/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_ms2/EP_ms2-force_build.rule

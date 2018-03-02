@@ -1,0 +1,78 @@
+Determining if the CU_curses_run_tests exist failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e23a/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9e23a.dir/build.make CMakeFiles/cmTC_9e23a.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e23a.dir/CheckSymbolExists.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -I/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_9e23a.dir/CheckSymbolExists.c.o   -c /root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CU_curses_run_tests'
+  return ((int*)(&CU_curses_run_tests))[argc];
+                  ^
+1 error generated.
+CMakeFiles/cmTC_9e23a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9e23a.dir/CheckSymbolExists.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_9e23a.dir/CheckSymbolExists.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9e23a/fast' failed
+make[4]: *** [cmTC_9e23a/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+
+File /root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <BCUnit/BCUnit.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CU_curses_run_tests
+  return ((int*)(&CU_curses_run_tests))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function clock_gettime exists in the rt failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e059/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3e059.dir/build.make CMakeFiles/cmTC_3e059.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e059.dir/CheckFunctionExists.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions -DCHECK_FUNCTION_EXISTS=clock_gettime -g -fPIE   -o CMakeFiles/cmTC_3e059.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3e059
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e059.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions -DCHECK_FUNCTION_EXISTS=clock_gettime -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_3e059.dir/CheckFunctionExists.c.o  -o cmTC_3e059 -lrt 
+/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_3e059.dir/build.make:86: recipe for target 'cmTC_3e059' failed
+make[5]: *** [cmTC_3e059] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3e059/fast' failed
+make[4]: *** [cmTC_3e059/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file execinfo.h exists failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c471/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5c471.dir/build.make CMakeFiles/cmTC_5c471.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c471.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_5c471.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'execinfo.h' file not found
+#include <execinfo.h>
+         ^~~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_5c471.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5c471.dir/CheckIncludeFile.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_5c471.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5c471/fast' failed
+make[4]: *** [cmTC_5c471/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+
+

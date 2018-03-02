@@ -1,0 +1,14 @@
+# Target labels
+ EP_turbo-jpeg
+# Source files and their labels
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_turbo-jpeg
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_turbo-jpeg.rule
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_turbo-jpeg-complete.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_turbo-jpeg/EP_turbo-jpeg-install.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_turbo-jpeg/EP_turbo-jpeg-mkdir.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_turbo-jpeg/EP_turbo-jpeg-download.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_turbo-jpeg/EP_turbo-jpeg-update.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_turbo-jpeg/EP_turbo-jpeg-patch.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_turbo-jpeg/EP_turbo-jpeg-configure.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_turbo-jpeg/EP_turbo-jpeg-build.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_turbo-jpeg/EP_turbo-jpeg-force_build.rule

@@ -1,0 +1,10 @@
+# This is a comment
+prefix=/root/linphone/linphone-android/liblinphone-sdk/android-x86
+exec_prefix=/root/linphone/linphone-android/liblinphone-sdk/android-x86
+
+Name:  bctoolbox
+Description: A common set of tools used by Belledonne Communication's softwares
+Version: 0.6.0
+Libs: -L/root/linphone/linphone-android/liblinphone-sdk/android-x86/lib -lbctoolbox
+Libs.private:  /root/linphone/linphone-android/liblinphone-sdk/android-x86/lib/libmbedtls.a /root/linphone/linphone-android/liblinphone-sdk/android-x86/lib/libmbedx509.a /root/linphone/linphone-android/liblinphone-sdk/android-x86/lib/libmbedcrypto.a
+Cflags: -I/root/linphone/linphone-android/liblinphone-sdk/android-x86/include

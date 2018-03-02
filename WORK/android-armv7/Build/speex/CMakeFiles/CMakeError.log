@@ -1,0 +1,125 @@
+Determining if the include file sys/audioio.h exists failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53fb6/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_53fb6.dir/build.make CMakeFiles/cmTC_53fb6.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53fb6.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_53fb6.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/audioio.h' file not found
+#include <sys/audioio.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_53fb6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_53fb6.dir/CheckIncludeFile.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_53fb6.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_53fb6/fast' failed
+make[4]: *** [cmTC_53fb6/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/soundcard.h exists failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35618/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_35618.dir/build.make CMakeFiles/cmTC_35618.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35618.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_35618.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/soundcard.h' file not found
+#include <sys/soundcard.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_35618.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_35618.dir/CheckIncludeFile.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_35618.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_35618/fast' failed
+make[4]: *** [cmTC_35618/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAS_SSE failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_982e4/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_982e4.dir/build.make CMakeFiles/cmTC_982e4.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_982e4.dir/src.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions -DHAS_SSE -g -fPIE   -o CMakeFiles/cmTC_982e4.dir/src.c.o   -c /root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp/src.c
+In file included from /root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp/src.c:1:
+In file included from /root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/xmmintrin.h:27:
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:64:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_vec_init_v2si(__i, 0);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:143:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_packsswb((__v4hi)__m1, (__v4hi)__m2);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:173:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_packssdw((__v2si)__m1, (__v2si)__m2);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:203:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_packuswb((__v4hi)__m1, (__v4hi)__m2);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:230:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_punpckhbw((__v8qi)__m1, (__v8qi)__m2);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:253:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_punpckhwd((__v4hi)__m1, (__v4hi)__m2);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:274:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_punpckhdq((__v2si)__m1, (__v2si)__m2);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:301:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_punpcklbw((__v8qi)__m1, (__v8qi)__m2);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:324:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_punpcklwd((__v4hi)__m1, (__v4hi)__m2);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:345:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_punpckldq((__v2si)__m1, (__v2si)__m2);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:366:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_paddb((__v8qi)__m1, (__v8qi)__m2);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:387:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_paddw((__v4hi)__m1, (__v4hi)__m2);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:408:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_paddd((__v2si)__m1, (__v2si)__m2);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:430:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_paddsb((__v8qi)__m1, (__v8qi)__m2);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:453:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_paddsw((__v4hi)__m1, (__v4hi)__m2);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:475:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_paddusb((__v8qi)__m1, (__v8qi)__m2);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:497:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_paddusw((__v4hi)__m1, (__v4hi)__m2);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:518:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_psubb((__v8qi)__m1, (__v8qi)__m2);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include/mmintrin.h:539:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+    return (__m64)__builtin_ia32_psubw((__v4hi)__m1, (__v4hi)__m2);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+CMakeFiles/cmTC_982e4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_982e4.dir/src.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_982e4.dir/src.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_982e4/fast' failed
+make[4]: *** [cmTC_982e4/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <xmmintrin.h>
+__m128 testfunc(float *a, float *b) {
+return _mm_add_ps(_mm_loadu_ps(a), _mm_loadu_ps(b));
+}
+int main(int argc, char *argv[]) {}

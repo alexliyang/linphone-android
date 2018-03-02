@@ -1,0 +1,14 @@
+# Target labels
+ EP_ms2plugins
+# Source files and their labels
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_ms2plugins
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_ms2plugins.rule
+/root/linphone/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_ms2plugins-complete.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_ms2plugins/EP_ms2plugins-install.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_ms2plugins/EP_ms2plugins-mkdir.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_ms2plugins/EP_ms2plugins-download.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_ms2plugins/EP_ms2plugins-update.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_ms2plugins/EP_ms2plugins-patch.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_ms2plugins/EP_ms2plugins-configure.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_ms2plugins/EP_ms2plugins-build.rule
+/root/linphone/linphone-android/WORK/android-x86/Stamp/EP_ms2plugins/EP_ms2plugins-force_build.rule

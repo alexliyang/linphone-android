@@ -1,0 +1,8 @@
+/root/linphone/linphone-android/liblinphone-sdk/android-x86/share/Belr/cmake/BelrTargets.cmake
+/root/linphone/linphone-android/liblinphone-sdk/android-x86/share/Belr/cmake/BelrTargets-relwithdebinfo.cmake
+/root/linphone/linphone-android/liblinphone-sdk/android-x86/share/Belr/cmake/BelrConfig.cmake
+/root/linphone/linphone-android/liblinphone-sdk/android-x86/include/belr/abnf.h
+/root/linphone/linphone-android/liblinphone-sdk/android-x86/include/belr/belr.h
+/root/linphone/linphone-android/liblinphone-sdk/android-x86/include/belr/grammarbuilder.h
+/root/linphone/linphone-android/liblinphone-sdk/android-x86/include/belr/parser.h
+/root/linphone/linphone-android/liblinphone-sdk/android-x86/lib/libbelr.a

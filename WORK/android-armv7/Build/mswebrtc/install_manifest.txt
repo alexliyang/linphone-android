@@ -1,0 +1,1 @@
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/lib/mediastreamer/plugins/libmswebrtc.so

@@ -1,0 +1,2 @@
+/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-ar qc libcpufeatures.a  CMakeFiles/cpufeatures.dir/root/android-ndk-r15c/sources/android/cpufeatures/cpu-features.c.o
+/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-ranlib libcpufeatures.a

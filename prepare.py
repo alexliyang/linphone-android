@@ -171,10 +171,10 @@ class AndroidPreparator(prepare.Preparator):
                         version = int(res[0])
                         retval = False
                     else:
-                        error("Could not get Android NDK version!")
+                        error("Could not get Android NDK version!11")
                         sys.exit(-1)
             else:
-                error("Could not get Android NDK version!")
+                error("Could not get Android NDK version!22")
                 sys.exit(-1)
         if retval == False and (version < self.min_supported_ndk or version > self.max_supported_ndk):
             self.unsupported_ndk_version = version

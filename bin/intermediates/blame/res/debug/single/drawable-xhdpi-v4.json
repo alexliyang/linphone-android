@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/root/.android/build-cache/d162f9b8a99c87770fae3edc373b0c59d5a91270/output/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_normal.9.png",
+        "source": "/root/.android/build-cache/d162f9b8a99c87770fae3edc373b0c59d5a91270/output/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/root/.android/build-cache/d162f9b8a99c87770fae3edc373b0c59d5a91270/output/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/root/.android/build-cache/d162f9b8a99c87770fae3edc373b0c59d5a91270/output/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/root/.android/build-cache/d162f9b8a99c87770fae3edc373b0c59d5a91270/output/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    }
+]

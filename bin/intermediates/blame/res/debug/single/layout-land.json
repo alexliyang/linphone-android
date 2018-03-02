@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/layout-land/call_incoming.xml",
+        "source": "/root/linphone/linphone-android/res/layout-land/call_incoming.xml"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/layout-land/chatlist_cell.xml",
+        "source": "/root/linphone/linphone-android/res/layout-land/chatlist_cell.xml"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/layout-land/call_outgoing.xml",
+        "source": "/root/linphone/linphone-android/res/layout-land/call_outgoing.xml"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/layout-land/assistant_codec_downloader.xml",
+        "source": "/root/linphone/linphone-android/res/layout-land/assistant_codec_downloader.xml"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/layout-land/launch_screen.xml",
+        "source": "/root/linphone/linphone-android/res/layout-land/launch_screen.xml"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/layout-land/dialer.xml",
+        "source": "/root/linphone/linphone-android/res/layout-land/dialer.xml"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/layout-land/call.xml",
+        "source": "/root/linphone/linphone-android/res/layout-land/call.xml"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/layout-land/main.xml",
+        "source": "/root/linphone/linphone-android/res/layout-land/main.xml"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/layout-land/search_contact_cell.xml",
+        "source": "/root/linphone/linphone-android/res/layout-land/search_contact_cell.xml"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/layout-land/about.xml",
+        "source": "/root/linphone/linphone-android/res/layout-land/about.xml"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/raw/hold.mkv",
+        "source": "/root/linphone/linphone-android/res/raw/hold.mkv"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/raw/ringback.wav",
+        "source": "/root/linphone/linphone-android/res/raw/ringback.wav"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/raw/linphonerc_factory",
+        "source": "/root/linphone/linphone-android/res/raw/linphonerc_factory"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/raw/linphonerc_default",
+        "source": "/root/linphone/linphone-android/res/raw/linphonerc_default"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/raw/oldphone_mono.wav",
+        "source": "/root/linphone/linphone-android/res/raw/oldphone_mono.wav"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/raw/incoming_chat.wav",
+        "source": "/root/linphone/linphone-android/res/raw/incoming_chat.wav"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/raw/notes_of_the_optimistic.mkv",
+        "source": "/root/linphone/linphone-android/res/raw/notes_of_the_optimistic.mkv"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/raw/rootca.pem",
+        "source": "/root/linphone/linphone-android/res/raw/rootca.pem"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/raw/lpconfig.xsd",
+        "source": "/root/linphone/linphone-android/res/raw/lpconfig.xsd"
+    },
+    {
+        "merged": "/root/linphone/linphone-android/bin/intermediates/res/merged/debug/raw/assistant_create.rc",
+        "source": "/root/linphone/linphone-android/res/raw/assistant_create.rc"
+    }
+]

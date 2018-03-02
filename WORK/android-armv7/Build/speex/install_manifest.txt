@@ -1,0 +1,16 @@
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/speex/speex_config_types.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/lib/pkgconfig/speex.pc
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/lib/pkgconfig/speexdsp.pc
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/speex/speex.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/speex/speex_bits.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/speex/speex_buffer.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/speex/speex_callbacks.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/speex/speex_echo.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/speex/speex_header.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/speex/speex_jitter.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/speex/speex_preprocess.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/speex/speex_resampler.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/speex/speex_stereo.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/include/speex/speex_types.h
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/lib/libspeex.a
+/root/linphone/linphone-android/liblinphone-sdk/android-armv7/lib/libspeexdsp.a

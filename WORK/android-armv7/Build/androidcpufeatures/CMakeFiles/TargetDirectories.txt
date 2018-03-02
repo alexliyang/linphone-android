@@ -1,0 +1,7 @@
+/root/linphone/linphone-android/WORK/android-armv7/Build/androidcpufeatures/CMakeFiles/install/strip.dir
+/root/linphone/linphone-android/WORK/android-armv7/Build/androidcpufeatures/CMakeFiles/install/local.dir
+/root/linphone/linphone-android/WORK/android-armv7/Build/androidcpufeatures/CMakeFiles/edit_cache.dir
+/root/linphone/linphone-android/WORK/android-armv7/Build/androidcpufeatures/CMakeFiles/rebuild_cache.dir
+/root/linphone/linphone-android/WORK/android-armv7/Build/androidcpufeatures/CMakeFiles/install.dir
+/root/linphone/linphone-android/WORK/android-armv7/Build/androidcpufeatures/CMakeFiles/cpufeatures.dir
+/root/linphone/linphone-android/WORK/android-armv7/Build/androidcpufeatures/CMakeFiles/list_install_components.dir

@@ -1,0 +1,21 @@
+Determining if the include file sys/audio.h exists failed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-armv7/Build/ortp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e5f9/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/ortp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7e5f9.dir/build.make CMakeFiles/cmTC_7e5f9.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-armv7/Build/ortp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e5f9.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/root/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_7e5f9.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-armv7/Build/ortp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/root/linphone/linphone-android/WORK/android-armv7/Build/ortp/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/audio.h' file not found
+#include <sys/audio.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_7e5f9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7e5f9.dir/CheckIncludeFile.c.o' failed
+make[5]: *** [CMakeFiles/cmTC_7e5f9.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/ortp/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7e5f9/fast' failed
+make[4]: *** [cmTC_7e5f9/fast] Error 2
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-armv7/Build/ortp/CMakeFiles/CMakeTmp'
+
+

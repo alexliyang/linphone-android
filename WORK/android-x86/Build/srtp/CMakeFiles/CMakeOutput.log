@@ -1,0 +1,500 @@
+The target system is: Android - 16 - i686
+The host system is: Linux - 4.15.0-041500-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/3.11.0-rc2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_557a2/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_557a2.dir/build.make CMakeFiles/cmTC_557a2.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_557a2.dir/testCCompiler.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_557a2.dir/testCCompiler.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_557a2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_557a2.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_557a2.dir/testCCompiler.c.o  -o cmTC_557a2 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2532/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f2532.dir/build.make CMakeFiles/cmTC_f2532.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2532.dir/CMakeCCompilerABI.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_f2532.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_f2532
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2532.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_f2532.dir/CMakeCCompilerABI.c.o  -o cmTC_f2532 
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: i686-none-linux-android
+Thread model: posix
+InstalledDir: /root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
+Selected GCC installation: /root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
+Candidate multilib: .;@m32
+Selected multilib: .;@m32
+ "/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -pie -z relro --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_f2532 /root/android-ndk-r15c/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o -L/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/root/android-ndk-r15c/platforms/android-16/arch-x86/usr/lib --gc-sections -z nocopyreloc CMakeFiles/cmTC_f2532.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /root/android-ndk-r15c/platforms/android-16/arch-x86/usr/lib/crtend_android.o
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(i686-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f2532/fast"]
+  ignore line: [make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f2532.dir/build.make CMakeFiles/cmTC_f2532.dir/build]
+  ignore line: [make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f2532.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_f2532.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f2532]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2532.dir/link.txt --verbose=1]
+  ignore line: [/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_f2532.dir/CMakeCCompilerABI.c.o  -o cmTC_f2532 ]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: i686-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m32]
+  link line: [ "/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -pie -z relro --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_f2532 /root/android-ndk-r15c/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o -L/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/root/android-ndk-r15c/platforms/android-16/arch-x86/usr/lib --gc-sections -z nocopyreloc CMakeFiles/cmTC_f2532.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /root/android-ndk-r15c/platforms/android-16/arch-x86/usr/lib/crtend_android.o]
+    arg [/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f2532] ==> ignore
+    arg [/root/android-ndk-r15c/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386] ==> dir [/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386]
+    arg [-L/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
+    arg [-L/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> dir [/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib]
+    arg [-L/root/android-ndk-r15c/platforms/android-16/arch-x86/usr/lib] ==> dir [/root/android-ndk-r15c/platforms/android-16/arch-x86/usr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_f2532.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/root/android-ndk-r15c/platforms/android-16/arch-x86/usr/lib/crtend_android.o] ==> ignore
+  collapse library dir [/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386] ==> [/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386]
+  collapse library dir [/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> [/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  collapse library dir [/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> [/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/i686-linux-android/lib]
+  collapse library dir [/root/android-ndk-r15c/platforms/android-16/arch-x86/usr/lib] ==> [/root/android-ndk-r15c/platforms/android-16/arch-x86/usr/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit dirs: [/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386;/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x;/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64/i686-linux-android/lib;/root/android-ndk-r15c/platforms/android-16/arch-x86/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4a0f/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e4a0f.dir/build.make CMakeFiles/cmTC_e4a0f.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4a0f.dir/feature_tests.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -std=c11 -o CMakeFiles/cmTC_e4a0f.dir/feature_tests.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e4a0f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4a0f.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_e4a0f.dir/feature_tests.c.o  -o cmTC_e4a0f 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_463a6/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_463a6.dir/build.make CMakeFiles/cmTC_463a6.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_463a6.dir/feature_tests.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -std=c99 -o CMakeFiles/cmTC_463a6.dir/feature_tests.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/feature_tests.c
+Linking C executable cmTC_463a6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_463a6.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_463a6.dir/feature_tests.c.o  -o cmTC_463a6 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_809b7/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_809b7.dir/build.make CMakeFiles/cmTC_809b7.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_809b7.dir/feature_tests.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -std=c90 -o CMakeFiles/cmTC_809b7.dir/feature_tests.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/feature_tests.c
+Linking C executable cmTC_809b7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_809b7.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_809b7.dir/feature_tests.c.o  -o cmTC_809b7 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd6d0/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fd6d0.dir/build.make CMakeFiles/cmTC_fd6d0.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd6d0.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_fd6d0.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fd6d0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd6d0.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_fd6d0.dir/CheckIncludeFile.c.o  -o cmTC_fd6d0 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01994/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_01994.dir/build.make CMakeFiles/cmTC_01994.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01994.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_01994.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_01994
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01994.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_01994.dir/CheckIncludeFile.c.o  -o cmTC_01994 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file byteswap.h exists passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6866c/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6866c.dir/build.make CMakeFiles/cmTC_6866c.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6866c.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_6866c.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6866c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6866c.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_6866c.dir/CheckIncludeFile.c.o  -o cmTC_6866c 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f74a8/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f74a8.dir/build.make CMakeFiles/cmTC_f74a8.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f74a8.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_f74a8.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f74a8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f74a8.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_f74a8.dir/CheckIncludeFile.c.o  -o cmTC_f74a8 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c83e8/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c83e8.dir/build.make CMakeFiles/cmTC_c83e8.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c83e8.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_c83e8.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c83e8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c83e8.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_c83e8.dir/CheckIncludeFile.c.o  -o cmTC_c83e8 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62090/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_62090.dir/build.make CMakeFiles/cmTC_62090.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62090.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_62090.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_62090
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62090.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_62090.dir/CheckIncludeFile.c.o  -o cmTC_62090 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/socket.h exists passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e203/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8e203.dir/build.make CMakeFiles/cmTC_8e203.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e203.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_8e203.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8e203
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e203.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_8e203.dir/CheckIncludeFile.c.o  -o cmTC_8e203 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netinet/in.h exists passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_328bb/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_328bb.dir/build.make CMakeFiles/cmTC_328bb.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_328bb.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_328bb.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_328bb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_328bb.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_328bb.dir/CheckIncludeFile.c.o  -o cmTC_328bb 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file arpa/inet.h exists passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7bc8d/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7bc8d.dir/build.make CMakeFiles/cmTC_7bc8d.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7bc8d.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_7bc8d.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7bc8d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bc8d.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_7bc8d.dir/CheckIncludeFile.c.o  -o cmTC_7bc8d 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1d751/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1d751.dir/build.make CMakeFiles/cmTC_1d751.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d751.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_1d751.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1d751
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d751.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_1d751.dir/CheckIncludeFile.c.o  -o cmTC_1d751 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining if the function inet_aton exists passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f47d1/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f47d1.dir/build.make CMakeFiles/cmTC_f47d1.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f47d1.dir/CheckFunctionExists.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions -DCHECK_FUNCTION_EXISTS=inet_aton -g -fPIE   -o CMakeFiles/cmTC_f47d1.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f47d1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f47d1.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions -DCHECK_FUNCTION_EXISTS=inet_aton -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_f47d1.dir/CheckFunctionExists.c.o  -o cmTC_f47d1 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining if the function usleep exists passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aced8/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_aced8.dir/build.make CMakeFiles/cmTC_aced8.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aced8.dir/CheckFunctionExists.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions -DCHECK_FUNCTION_EXISTS=usleep -g -fPIE   -o CMakeFiles/cmTC_aced8.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aced8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aced8.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions -DCHECK_FUNCTION_EXISTS=usleep -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_aced8.dir/CheckFunctionExists.c.o  -o cmTC_aced8 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c607/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2c607.dir/build.make CMakeFiles/cmTC_2c607.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c607.dir/CheckFunctionExists.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions -DCHECK_FUNCTION_EXISTS=sigaction -g -fPIE   -o CMakeFiles/cmTC_2c607.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2c607
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c607.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions -DCHECK_FUNCTION_EXISTS=sigaction -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_2c607.dir/CheckFunctionExists.c.o  -o cmTC_2c607 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22817/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_22817.dir/build.make CMakeFiles/cmTC_22817.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22817.dir/CheckIncludeFile.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_22817.dir/CheckIncludeFile.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_22817
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22817.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_22817.dir/CheckIncludeFile.c.o  -o cmTC_22817 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_328cb/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_328cb.dir/build.make CMakeFiles/cmTC_328cb.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_328cb.dir/UINT8_T.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_328cb.dir/UINT8_T.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CheckTypeSize/UINT8_T.c
+Linking C executable cmTC_328cb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_328cb.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_328cb.dir/UINT8_T.c.o  -o cmTC_328cb 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_32ace/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_32ace.dir/build.make CMakeFiles/cmTC_32ace.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_32ace.dir/UINT16_T.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_32ace.dir/UINT16_T.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CheckTypeSize/UINT16_T.c
+Linking C executable cmTC_32ace
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32ace.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_32ace.dir/UINT16_T.c.o  -o cmTC_32ace 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34c15/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_34c15.dir/build.make CMakeFiles/cmTC_34c15.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34c15.dir/UINT32_T.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_34c15.dir/UINT32_T.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CheckTypeSize/UINT32_T.c
+Linking C executable cmTC_34c15
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34c15.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_34c15.dir/UINT32_T.c.o  -o cmTC_34c15 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ec14/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2ec14.dir/build.make CMakeFiles/cmTC_2ec14.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ec14.dir/UINT64_T.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_2ec14.dir/UINT64_T.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CheckTypeSize/UINT64_T.c
+Linking C executable cmTC_2ec14
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ec14.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_2ec14.dir/UINT64_T.c.o  -o cmTC_2ec14 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15214/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_15214.dir/build.make CMakeFiles/cmTC_15214.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15214.dir/UNSIGNED_LONG.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_15214.dir/UNSIGNED_LONG.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CheckTypeSize/UNSIGNED_LONG.c
+Linking C executable cmTC_15214
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15214.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_15214.dir/UNSIGNED_LONG.c.o  -o cmTC_15214 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4267e/fast"
+make[4]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4267e.dir/build.make CMakeFiles/cmTC_4267e.dir/build
+make[5]: Entering directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4267e.dir/UNSIGNED_LONG_LONG.c.o
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/sysroot  -isystem /root/android-ndk-r15c/sysroot/usr/include -isystem /root/android-ndk-r15c/sysroot/usr/include/i686-linux-android  -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_4267e.dir/UNSIGNED_LONG_LONG.c.o   -c /root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CheckTypeSize/UNSIGNED_LONG_LONG.c
+Linking C executable cmTC_4267e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4267e.dir/link.txt --verbose=1
+/root/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/root/android-ndk-r15c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/android-ndk-r15c/platforms/android-16/arch-x86 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=16 -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_4267e.dir/UNSIGNED_LONG_LONG.c.o  -o cmTC_4267e 
+make[5]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/root/linphone/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+

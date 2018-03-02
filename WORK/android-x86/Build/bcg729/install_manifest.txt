@@ -1,0 +1,7 @@
+/root/linphone/linphone-android/liblinphone-sdk/android-x86/share/Bcg729/cmake/Bcg729Targets.cmake
+/root/linphone/linphone-android/liblinphone-sdk/android-x86/share/Bcg729/cmake/Bcg729Targets-relwithdebinfo.cmake
+/root/linphone/linphone-android/liblinphone-sdk/android-x86/share/Bcg729/cmake/Bcg729Config.cmake
+/root/linphone/linphone-android/liblinphone-sdk/android-x86/share/Bcg729/cmake/Bcg729ConfigVersion.cmake
+/root/linphone/linphone-android/liblinphone-sdk/android-x86/include/bcg729/decoder.h
+/root/linphone/linphone-android/liblinphone-sdk/android-x86/include/bcg729/encoder.h
+/root/linphone/linphone-android/liblinphone-sdk/android-x86/lib/libbcg729.a

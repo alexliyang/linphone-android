@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_linphone"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_linphone.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_linphone-complete.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_linphone/EP_linphone-install.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_linphone/EP_linphone-mkdir.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_linphone/EP_linphone-download.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_linphone/EP_linphone-update.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_linphone/EP_linphone-patch.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_linphone/EP_linphone-configure.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_linphone/EP_linphone-build.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-armv7/Stamp/EP_linphone/EP_linphone-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EP_linphone"
+		],
+		"name" : "EP_linphone"
+	}
+}

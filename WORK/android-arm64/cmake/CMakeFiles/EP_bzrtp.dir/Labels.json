@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/cmake/CMakeFiles/EP_bzrtp"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/cmake/CMakeFiles/EP_bzrtp.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/cmake/CMakeFiles/EP_bzrtp-complete.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_bzrtp/EP_bzrtp-install.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_bzrtp/EP_bzrtp-mkdir.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_bzrtp/EP_bzrtp-download.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_bzrtp/EP_bzrtp-update.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_bzrtp/EP_bzrtp-patch.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_bzrtp/EP_bzrtp-configure.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_bzrtp/EP_bzrtp-build.rule"
+		},
+		{
+			"file" : "/root/linphone/linphone-android/WORK/android-arm64/Stamp/EP_bzrtp/EP_bzrtp-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EP_bzrtp"
+		],
+		"name" : "EP_bzrtp"
+	}
+}
