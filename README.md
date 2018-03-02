@@ -1,2 +1,0 @@
-# linphone-android
-linphone-android
