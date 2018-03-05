@@ -1,1 +1,1 @@
-cmd='/root/linphone/linphone-android/WORK/android-armv7/cmake/EP_vpx_configure.sh'
+cmd='/tmp/linphone-prepareRBpnpx/EP_vpx_configure.sh'

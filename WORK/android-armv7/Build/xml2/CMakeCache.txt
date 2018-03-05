@@ -297,6 +297,9 @@ ENABLE_SAX1:BOOL=ON
 //Add Relax-NG and Schemas support.
 ENABLE_SCHEMAS:BOOL=ON
 
+//Add Schematron support.
+ENABLE_SCHEMATRON:BOOL=OFF
+
 //No help, variable specified on the command line.
 ENABLE_SHARED:UNINITIALIZED=NO
 
